@@ -13,8 +13,74 @@ body{
     font-weight: 400px;
 }
 
-/*------------------------------------------ Footer--------------------------------------*/
+/*------------------------------------------- HEADER ---------------------------------------------*/
+
+header .logo-header{
+    width: 14rem;
+    margin-left: 5rem;
+}
+
+header nav ul li{
+    font-size: 1.5rem;
+    
+}
+
+
+
+/*------------------------------------------- FOOTER ----------------------------------------------*/
 
 footer{
     background-color: #CDEFF5;
+}
+
+footer .logo-footer{
+    width: 150px;
+    height: auto;
+}
+
+/*------------------------------------------- CONTACTO -------------------------------------------*/
+
+main .formulario-fondo{
+    background-color: #CDEFF5;
+    border-radius: 30px;
+}
+
+/*------------------------------------------- REQUISITOS -------------------------------------------------*/
+
+main .img-requisitos{
+    
+    margin-top: 40px;
+    width: 850px;
+}
+main .link{
+    text-decoration: none;
+    color: black;
+}
+
+main .link:hover{
+    color: rgb(214, 16, 16);
+}
+
+
+/*--------------------------------------------- RESPONSIVE -------------------------------------------------*/
+
+
+@media (max-width: 1024px){
+
+
+/*-------------------------------------------- REQUISITOS --------------------------------------------------*/
+main .img-requisitos{
+    width: 400px;
+}
+
+main .accordion-button h4{
+    font-size: 1rem;
+}
+
+main .accordion-body{
+    font-size: 14px;
+}
+
+
+
 }
