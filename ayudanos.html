@@ -24,13 +24,13 @@
                     <div class="collapse navbar-collapse" id="navbarLight">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 gap-3">
                             <li class="nav-item ">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./requisitos.html">Requisitos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./ayudanos.html">Ayúdanos</a>
+                                <a class="nav-link active" href="./ayudanos.html">Ayúdanos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -40,7 +40,59 @@
             </div>
         </nav>
 </header>
+<main>
+    <div class="container-fluid">
+        <div class="mt-4 ms-4">
+            <h1>Tu ayuda hace la diferencia</h1><br>
+            <h4>¿Querés ayudarnos de otra forma?</h4>
+            <p>Si no podés donar sangre y/o querés comprometerte aún más con la causa, tenés la posibilidad de colaborar con una donación: </p>
 
+        </div>
+
+            <div class="d-flex justify-content-evenly mt-5">
+                <div class=" col-lg-2 mt-2">
+                    <button type="button" class="btn btn-outline-info d-block mb-4 ms-5 btn-form mt-5" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                        Ayúdanos con tu donación de $50
+                    </button>
+                    <button type="button" class="btn btn-outline-info d-block pe-4 ms-5 btn-form" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                        Sumate al equipo de voluntarios
+                    </button>
+                </div>
+                    
+                <div class=" d-none d-md-flex">
+                    <img class="img-ayudar" src="img/ayuda.png" alt="Ayudar">
+                </div>
+            </div>
+
+            <div class="nav-link disabled">
+                <p class="text-center fs-3 mt-4">------ PROXIMAMENTE ------</p>
+                <div class="row mt-2" >
+                    <h5 class="text-center"> Querés donar otro monto? seleccioná acá abajo la opción que desees. </h5>
+                    <div class="d-flex justify-content-center mt-3  btn-donar">
+                        <button type="button" class="btn btn-outline-info pe-4 ms-5 btn-form mb-2" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                            $100
+                        </button>
+                        <button type="button" class="btn btn-outline-info pe-4 ms-5 btn-form mb-2" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                            $300
+                        </button>
+                        <button type="button" class="btn btn-outline-info pe-4 ms-5 btn-form mb-2" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                            $500
+                        </button>
+                        <button type="button" class="btn btn-outline-info pe-4 ms-5 btn-form mb-2" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                            $1000
+                        </button>
+                        <button type="button" class="btn  pe-4 ms-5 btn-form mb-2" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Tooltip on right">
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Ingrese otro monto">
+                                <span class="input-group-text">.00</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</main>
 <footer>
     <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
