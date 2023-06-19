@@ -43,6 +43,7 @@ footer .logo-footer{
 main .formulario-fondo{
     background-color: #CDEFF5;
     border-radius: 30px;
+    font-size: 1.5rem;
 }
 
 /*------------------------------------------- REQUISITOS -------------------------------------------------*/
@@ -73,6 +74,25 @@ main .btn-form{
     font-size: 1.5rem;
 }
 
+
+/*------------------------------------------------- INICIO -----------------------------------------------*/
+
+main .logoHospital{
+    width: 80px;
+}
+
+main .card{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+main .card-fondo-text{
+    background-color: rgba(255, 255, 255, 0.676);
+    width: fit-content;
+    font-size: 1.6rem;
+    line-height: 230%;
+}
 
 /*--------------------------------------------- RESPONSIVE -------------------------------------------------*/
 
@@ -110,9 +130,9 @@ main p{
     font-weight: bold ;
 }
 main .contenedor_aliados {
-   display: flex;
-   justify-content: space-between; 
-   padding: 0px 40px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 40px;
 }
 main .contenedor_aliados .aliado2,
 main .contenedor_aliados .aliado3 {
@@ -127,10 +147,44 @@ main .contenedor_aliados .aliado6{
 /*RESPONSIVE*/
 @media (max-width: 800px) {
     main .contenedor_aliados {
-      flex-direction: column; 
-      align-items: center;
-      justify-content: center;
+        
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        
     
     }
 
-  }
+    /*-------------------------------------- INICIO --------------------------------------------------------*/
+
+main .mapa{
+    width: 330px;
+    height: 250px;
+}
+
+main .card{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+main .card-fondo-text{
+    background-color: rgba(255, 255, 255, 0.676);
+    width: fit-content;
+    font-size: 13px;
+    line-height: 120%;
+    margin-top: 0px;
+}
+
+main .img-inicio{
+    width: 300px;
+    height: auto;
+}
+
+/*------------------------------------------ CONTACTO ---------------------------------------------------*/
+main .formulario-fondo{
+    font-size: 13px;
+}
+
+}
