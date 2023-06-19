@@ -101,3 +101,20 @@ main .btn-donar{
 }
 
 }
+
+
+/*--------------------------------------------- ALIADOS --------------------------------------------------*/
+main .contenedor_aliados {
+   display: flex;
+   justify-content: space-between; 
+   padding: 0px 40px;
+}
+main .contenedor_aliados .aliado2,
+main .contenedor_aliados .aliado3 {
+    margin-top: 35px;
+}
+main .contenedor_aliados .aliado4,
+main .contenedor_aliados .aliado5,
+main .contenedor_aliados .aliado6{
+    margin-top: 20px;
+}
