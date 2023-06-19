@@ -104,6 +104,11 @@ main .btn-donar{
 
 
 /*--------------------------------------------- ALIADOS --------------------------------------------------*/
+main p{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold ;
+}
 main .contenedor_aliados {
    display: flex;
    justify-content: space-between; 
@@ -118,3 +123,14 @@ main .contenedor_aliados .aliado5,
 main .contenedor_aliados .aliado6{
     margin-top: 20px;
 }
+
+/*RESPONSIVE*/
+@media (max-width: 800px) {
+    main .contenedor_aliados {
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+    
+    }
+
+  }
